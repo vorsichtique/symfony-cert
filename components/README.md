@@ -1,6 +1,6 @@
 # symfony components
 
-## option resolver
+## options resolver
 
 > The OptionsResolver component is array_replace on steroids. It allows you to create an options system with required options, defaults, validation (type, value), normalization and more.
 
