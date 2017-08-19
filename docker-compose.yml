@@ -6,8 +6,8 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: symfony
-            MYSQL_USER: root
-            MYSQL_PASSWORD: root
+            MYSQL_USER: symfony
+            MYSQL_PASSWORD: symfony
     php:
         build: docker/php7-fpm
         volumes:
@@ -19,5 +19,6 @@ services:
             - 80:80
         volumes:
             - ./logs/nginx/:/var/log/nginx
+            - .:/var/www/symfony
     redis:
         image: redis
