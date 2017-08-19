@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Malu\OptionsResolver;
+namespace AppBundle\Certification\OptionsResolver;
 
 use \Symfony\Component\OptionsResolver\OptionsResolver;
 

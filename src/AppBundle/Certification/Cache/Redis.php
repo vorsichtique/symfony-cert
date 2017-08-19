@@ -1,6 +1,6 @@
 <?php
 
-namespace Malu\Cache;
+namespace AppBundle\Certification\Cache;
 
 use Symfony\Component\Cache\Simple\RedisCache;
 use Predis\Client;

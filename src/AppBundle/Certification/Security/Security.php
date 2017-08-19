@@ -1,6 +1,6 @@
 <?php
 
-namespace Malu\Security;
+namespace AppBundle\Certification\Security;
 
 
 class Security

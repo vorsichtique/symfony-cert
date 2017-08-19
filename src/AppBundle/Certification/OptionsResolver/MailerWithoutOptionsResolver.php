@@ -1,6 +1,6 @@
 <?php
 
-namespace Malu\OptionsResolver;
+namespace AppBundle\Certification\OptionsResolver;
 
 
 class MailerWithoutOptionsResolver

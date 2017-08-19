@@ -1,8 +1,6 @@
 <?php
 
-namespace Malu\OptionsResolver;
-
-require_once __DIR__.'/../../vendor/autoload.php';
+namespace AppBundle\Certification\OptionsResolver;
 
 
 class Explanation
