@@ -18,6 +18,11 @@ $app->get('/cache', function() use($app) {
     return '';
 });
 
+$app->get('/security', function() use($app) {
+    $expl = new Malu\Security\Security();
+    return '';
+});
+
 $app->error(function (\Exception $e) {
     dump($e);
     return '';
