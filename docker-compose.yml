@@ -11,14 +11,14 @@ services:
     php:
         build: docker/php7-fpm
         volumes:
-            - .:/var/www/symfony
-            - ./logs/symfony:/var/www/symfony/app/logs
+            - .:/var/www/symfony:cached
+            - ./logs/symfony:/var/www/symfony/app/logs:cached
     nginx:
         build: docker/nginx
         ports:
             - 80:80
         volumes:
-            - ./logs/nginx/:/var/log/nginx
-            - .:/var/www/symfony
+            - ./logs/nginx/:/var/log/nginx:cached
+            - .:/var/www/symfony:cached
     redis:
         image: redis
