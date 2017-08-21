@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AppBundle\Certification\OptionsResolver;
+namespace AppBundle\Components\OptionsResolver;
 
 use \Symfony\Component\OptionsResolver\OptionsResolver;
 

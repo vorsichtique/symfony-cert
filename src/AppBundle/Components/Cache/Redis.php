@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\Certification\Cache;
+namespace AppBundle\Components\Cache;
 
 use Symfony\Component\Cache\Simple\RedisCache;
 use Predis\Client;

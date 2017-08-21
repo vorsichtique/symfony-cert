@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\Certification\Security;
+namespace AppBundle\Components\Security;
 
 
 class Security

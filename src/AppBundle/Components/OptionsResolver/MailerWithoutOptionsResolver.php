@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\Certification\OptionsResolver;
+namespace AppBundle\Components\OptionsResolver;
 
 
 class MailerWithoutOptionsResolver

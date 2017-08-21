@@ -2,9 +2,9 @@
 
 namespace AppBundle\Controller;
 
-use AppBundle\Certification\Cache\Redis;
-use AppBundle\Certification\OptionsResolver\Explanation;
-use AppBundle\Certification\Security\Security;
+use AppBundle\Components\Cache\Redis;
+use AppBundle\Components\OptionsResolver\Explanation;
+use AppBundle\Components\Security\Security;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
